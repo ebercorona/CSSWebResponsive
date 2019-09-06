@@ -1,0 +1,392 @@
+/******************************************************************************/
+/***     MODIFICO LOS ESTILOS A LA RESOLUSION MAYOR O IGUAL 900 DESKTOP     ***/
+/******************************************************************************/
+*
+{
+  box-sizing: border-box;
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+#contenido
+{
+  width: 900px;
+  height: 500px;
+  background-color: #ffffff;
+  margin-left: 180px;
+  border-radius: 10px 10px 0px 0px;
+}
+#cabecera
+{
+  width: 900px;
+  height: 90px;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  animation: slidein 2s;
+}
+#cajacentral
+{
+  width: 900px;
+  height: 440px;
+  background-color: #82c3a6;
+}
+#cajasecundaria
+{
+  padding-top: 10px;
+  width:900px;
+  height: 310px;
+	background: #d5c75f;
+  display:flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+#cajapaisaje
+{
+  width: 900px;
+  height: 450px;
+	background: #d5c75f;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 60px;
+}
+#footer
+{
+  width: 900px;
+  height: 280px;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+#titcabecera
+{
+  float:left;
+  padding-left: 40px;
+  background-color: #5b7989;
+  text-shadow: 2px 2px #02010a;
+}
+#heacabecera
+{
+  word-spacing: 20px;
+  padding-left: 120px;
+  background-color: #5b7989;
+  text-shadow: 2px 2px #02010a;
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+#cabecera p a
+{
+  background-color: #5b7989;
+  font-size: 1.3em;
+}
+#imgcentral
+{
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 150px;
+  box-shadow: 2px 2px 2px #02010a;
+}
+#fotopuente
+{
+  margin-left: 30px;
+  width: 30%;
+  height: 250px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  box-shadow: 2px 2px 2px #02010a;
+  flex: 1 1 auto;
+}
+#fotociudad
+{
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 30%;
+  height: 250px;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  box-shadow: 2px 2px 2px #02010a;
+  flex: 1 1 auto;
+}
+#vinculopuente
+{
+  font-style: italic;
+  font-weight:bold;
+  background: #d5c75f;
+  font-size: 20px;
+  padding-left: 200px;
+  width: 34%;
+  flex: 1 1 auto;
+}
+#vinculociudad
+{
+  font-style: italic;
+  font-weight:bold;
+  background: #d5c75f;
+  font-size: 20px;
+  padding-left: 200px;
+  width: 34%;
+  flex: 1 1 auto;
+}
+#fotopuente:hover
+{
+  border-right-color:#82c3a6;
+  border-bottom-color:#82c3a6;
+ 	transform: rotate(10deg);
+}
+#fotociudad:hover
+{
+  border-right-color:#82c3a6;
+  border-bottom-color:#82c3a6;
+ 	transform: translate(20px,-5px);
+}
+#vinculopuente a
+{
+  background: #d5c75f;
+  color:black;
+  text-shadow: 0.5px 0.5px #02010a;
+}
+#vinculociudad a
+{
+  background: #d5c75f;
+  color: black;
+  text-shadow: 0.5px 0.5px #02010a;
+}
+@keyframes slidein
+{
+  0%{margin-top: 150%;}
+  60%{margin-top: -5%;}
+  100%{margin-top: 0%;}
+}
+.caja
+{
+  background-color: #C6d5c5;
+}
+.caja > p
+{
+  color: black;
+  font-style: italic;
+  font-weight:bold;
+  background-color: #C6d5c5;
+}
+#caja1
+{
+  flex: 1 1 auto;
+  order: 1;
+}
+#caja2
+{
+  flex: 1 1 auto;
+  order: 2;
+}
+#caja3
+{
+  flex: 1 1 auto;
+  order: 3;
+}
+#caja4
+{
+  flex: 1 1 auto;
+  order: 4;
+}
+.tfooter
+{
+  font-size: 2em;
+}
+.logo
+{
+  width: 25px;
+  height: 25px;
+  border-radius: 7px 7px 7px 7px;
+}
+#cp1
+{
+  flex: 1 1 auto;
+  order: 1;
+}
+#cp2
+{
+ flex: 1 1 auto;
+ order: 2;
+}
+#cp3
+{
+  flex: 1 1 auto;
+  order: 3;
+}
+#cp4
+{
+  flex: 1 1 auto;
+  order: 4;
+}
+#cp5
+{
+  flex: 1 1 auto;
+  order: 5;
+}
+#cp6
+{
+  flex: 1 1 auto;
+  order: 6;
+}
+#cp111
+{
+  filter: blur(10px);
+}
+#cp112
+{
+  filter:grayscale(100%);
+}
+#cp113
+{
+  filter:sepia(100%);
+}
+#cp114
+{
+  filter:grayscale(100%);
+}
+#cp115
+{
+}
+#cp116
+{
+  filter:grayscale(100%);
+}
+.cp11
+{
+  width: 80%;
+  height: 200px;
+}
+.cp
+{
+  background: #d5c75f;
+  width: 30%;
+}
+/***************************************************************************/
+/***     MODIFICO LOS ESTILOS A LA RESOLUSION MENOR O IGUAL 900  MOVIL   ***/
+/***************************************************************************/
+@media only screen and (max-width: 900px)
+{
+    #contenido
+    {
+      width: 100%;
+      margin-left: 0;
+      background-color: red;
+    }
+    #cajasecundaria
+    {
+      padding-top: 10px;
+      width:100%;
+      height: 450px;
+    	background: #d5c75f;
+      flex-direction: column;
+      align-self: center;
+    }
+    #cabecera
+    {
+      width: 100%;
+      height: 150px;
+      margin-left: 0;
+    }
+    #cajacentral
+    {
+      width: 100%;
+      height: 440px;
+      background-color: #82c3a6;
+    }
+    #footer
+    {
+      width: 100%;
+      height: 850px;
+      background-color: #C6d5c5;
+      flex-direction: column;
+      align-items: center;
+    }
+    #cajapaisaje
+    {
+      width: 100%;
+      height: 1300px;
+    	background: #d5c75f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 50px;
+      padding-top: 10px;
+   }
+    #titcabecera
+    {
+      float:none;
+      font-size: 2.2em;
+      text-align: center;
+    }
+    #heacabecera
+    {
+      float:none;
+      margin-right: 0px;
+      text-align: left;
+      padding-left: 0px;
+      text-align: center;
+    }
+    #imgcentral
+    {
+      width: 300px;
+    }
+    #fotopuente
+    {
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 300px;
+      height: 150px;
+      order: 1;
+    }
+    #fotociudad
+    {
+      padding-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 300px;
+      height: 150px;
+      order: 3;
+    }
+    #vinculopuente
+    {
+     margin-left: 60px;
+     padding-left: 0px;
+     order: 2;
+    }
+    #vinculociudad
+    {
+     margin-left: 60px;
+     padding-left: 0px;
+     order: 4;
+    }
+    .cp
+    {
+      background: #d5c75f;
+      width: 90%;
+    }
+}
+@media only screen and (max-width: 437px)
+{
+  #imgcentral
+  {
+    width: 300px;
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 360px)
+{
+ #imgcentral
+  {
+    width: 300px;
+    margin-left: 20px;
+  }
+
+}
